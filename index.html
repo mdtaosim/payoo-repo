@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo</title>
+
+    <!-- daisy and tailwind links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="flex flex-col justify-center items-center bg-[#F4F5F7] h-[100vh]">
+
+    <div class="bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center h-[145px] w-[316px]">
+        <img src="./assets/Group.png" alt="">
+    </div>
+
+    <form class="w-[380px] p-8 bg-white rounded-3xl">
+        <div>
+            <label class="font-semibold" for="number">Mobile Number</label>
+            <br>
+            <input id="mobile-number" type="number" placeholder="Enter your number" class="input rounded-[30px] bg-[#F4F5F7] py-4 px-5 mt-3" />
+        </div>
+        <div class="mt-4">
+            <label class="font-semibold" for="number">4 Digit Pin</label>
+            <br>
+            <input id="pin-number" type="number" placeholder="Enter 4 Digit Pin" class="input rounded-[30px] bg-[#F4F5F7] py-4 px-5 mt-3" />
+        </div>
+        <button id="lofinBtn" class="btn rounded-[30px] w-full text-white py-4 px-5 bg-[#0874F2] mt-4">Login</button>
+    </form>
+
+    <!-- scriopt add -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
