@@ -9,5 +9,4 @@ document.getElementById('add-mony-btn')
 
         document.getElementById('balance').innerText = totalBalance;
 
-        console.log(totalBalance);
     })
